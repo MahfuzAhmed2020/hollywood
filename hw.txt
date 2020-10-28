@@ -1,0 +1,22 @@
+git status            -->    Show the working tree status.
+git add --a            -->  Add file contents to the index.
+git commit -m      -->  Record changes to the repository
+git pull origin master  -->  git pull origin master will pull changes from the origin remote,
+                                           master branch and merge them to the local checked-out branch.
+
+git push origin master  -->  Send changes to the master branch of your remote repository.
+git clone url   -->  Clone a repository into a new directory.
+
+git init      ---->  Create an empty Git repository or reinitialize an existing one.
+                          
+git remote -v      -->  Shows URLs of remote repositories when listing your current remote connections. 
+                                By default, listing remote repositories only shows you their shortnames (e.g. "origin").
+                              Using the "-v" option, you will also see the remote's URLs in listings.
+git branch      -->   List, create, or delete branches.
+git check out branchName  --> ( sparse-checkout )  Initialize and modify the sparse-checkout
+git merge   -->  Join two or more development histories together.  
+git log   -->   Show commit logs 
+git revert    ----->   git revert is about making a new commit that reverts the changes made by other commits.
+git reset   -----> Reset current HEAD to the specified state.
+
+           [{(https://git-scm.com/docs/git)10/24/2020}]
